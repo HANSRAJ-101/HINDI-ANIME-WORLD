@@ -77,7 +77,7 @@ module.exports = [
         // Derived from the watch-page slug https://rumble.com/v7bzixm-...html
         // If this doesn't play, go to the video on rumble.com -> Share -> Embed
         // and paste the exact URL from that embed code here instead.
-        src: "https://rumble.com/embed/v7bzixm/"
+        src: "https://rumble.com/embed/v79suxe/?pub=4pw4c8"
       }
     ]
   }
