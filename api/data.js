@@ -78,15 +78,12 @@ module.exports = [
         // If this doesn't play, go to the video on rumble.com -> Share -> Embed
         // and paste the exact URL from that embed code here instead.
         src: "https://rumble.com/embed/v79suxe/?pub=4pw4c8"
-      }
+      },
       {
         number: 2,
         title: "Episode 2",
         type: "iframe",
-        // Derived from the watch-page slug https://rumble.com/v7bzixm-...html
-        // If this doesn't play, go to the video on rumble.com -> Share -> Embed
-        // and paste the exact URL from that embed code here instead.
-        src: "https://rumble.com/embed/v79syk0/?pub=4pw4c8"
+        src: "https://rumble.com/embed/REPLACE_WITH_VIDEO_ID/"
       }
     ]
   }
