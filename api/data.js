@@ -43,7 +43,7 @@ module.exports = [
       {
         number: 1,
         title: "Episode 1",
-        type: "mp4",
+        type: "iframe",
         src: "https://rumble.com/embed/v79ewfy/?pub=4pw4c8"
       }
     ]
