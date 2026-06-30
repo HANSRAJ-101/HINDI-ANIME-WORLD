@@ -44,7 +44,7 @@ module.exports = [
         number: 1,
         title: "Episode 1",
         type: "mp4",
-        src: "https://youtu.be/eHTXQW58WhA?si=bS7BIVeN76nSszUO"
+        src: "https://rumble.com/embed/v79ewfy/?pub=4pw4c8"
       }
     ]
   },
