@@ -405,6 +405,22 @@ main { padding: 0 5vw 60px; }
   font-size: 11px;
 }
 
+.footer-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 11px;
+  transition: color 0.15s ease;
+}
+.footer-links a:hover { color: var(--red); }
+
+.auth-footer-links { justify-content: center; margin-top: 16px; }
+
 /* ============================================================
    RESPONSIVE
    ============================================================ */
