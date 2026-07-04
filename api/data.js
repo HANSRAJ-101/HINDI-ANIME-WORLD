@@ -5,14 +5,31 @@
 // to add your real anime + episodes. No build step needed —
 // just commit and push, Vercel redeploys automatically.
 //
-// Each episode needs a `type` + `src`:
+// Each episode needs a `type` + `src`, and SHOULD have `duration`:
 //   type: "iframe"  -> src is an embeddable player URL
 //                       e.g. a Rumble embed: https://rumble.com/embed/XXXXXXX/
 //   type: "mp4"     -> src is a direct link to a .mp4 / .m3u8 file
+//   duration         -> episode length IN SECONDS (e.g. 24 min = 1440).
+//                        Only used for "iframe" episodes — it powers
+//                        auto-advance to the next episode, since the
+//                        front end can't detect when a cross-origin
+//                        iframe (Rumble, etc.) actually finishes playing.
+//                        "mp4" episodes auto-advance natively and don't
+//                        need this. If you skip `duration` on an iframe
+//                        episode, auto-advance is simply skipped for it —
+//                        the viewer still gets a manual "Next" button.
+//   loadBufferSeconds -> OPTIONAL. Extra seconds added on top of
+//                        `duration` before auto-advancing, to account for
+//                        the embedded player's own loading/buffering time
+//                        (the timer starts the instant the iframe is
+//                        inserted, slightly before playback visually
+//                        begins). Defaults to 4 seconds if omitted —
+//                        increase it for a source that consistently loads
+//                        slower than that.
 // ============================================================
 
 module.exports = [
-  {
+   {
     id: 1,
     title: "David",
     cover: "https://image.tmdb.org/t/p/original/bESlrLOrsQ9gKzaGQGHXKOyIUtX.jpg",

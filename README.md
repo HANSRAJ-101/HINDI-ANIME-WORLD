@@ -38,11 +38,19 @@ Open `api/data.js`. Each anime looks like this:
       number: 1,
       title: "Episode 1",
       type: "iframe",                                 // or "mp4"
-      src: "https://rumble.com/embed/VIDEO_ID/"        // the embed/video URL
+      src: "https://rumble.com/embed/VIDEO_ID/",       // the embed/video URL
+      duration: 1440                                   // episode length in SECONDS (optional, iframe only)
     }
   ]
 }
 ```
+
+**About `duration` and auto-advance to the next episode:**
+
+- `"mp4"` episodes auto-advance to the next episode automatically — the browser's native video player tells the page exactly when it ends. No `duration` needed.
+- `"iframe"` episodes (Rumble, etc.) are embedded from another website, so the page has **no way to detect** when they actually finish playing. To still auto-advance, give the episode a `duration` (its length in seconds — e.g. a 24-minute episode is `1440`), and a timer will move to the next episode once that time elapses.
+- If you leave `duration` off an iframe episode, auto-advance just doesn't happen for it — the viewer still sees a manual **"Next: Episode X →"** button under the player, so they're never stuck.
+- The timer actually waits `duration + 4 seconds` by default, since the iframe needs a moment to load before playback visually starts (the timer itself starts the instant the iframe is inserted, slightly before that). If a particular video source consistently loads slower than that, add `loadBufferSeconds: 8` (or whatever fits) to that episode in `data.js` to extend the buffer.
 
 **Two ways to point at a video, depending on your source:**
 
@@ -108,3 +116,11 @@ The video itself is **never proxied through your backend** — the browser loads
 - **Site name / colors** — edit the CSS variables at the top of `style.css` (`:root { ... }`).
 - **Add more anime** — copy/paste another object into the array in `api/data.js`.
 - **Cover images** — any direct image URL works (`.jpg`, `.png`, `.webp`).
+## New: accounts, playlists, resume-watching, and the top banner
+
+- **`login.html` + `auth.js`** — registration/login page. Accounts are stored client-side in `localStorage` (no server, no database), so an account only exists in the browser it was created in. Not real security — don't reuse a sensitive password here.
+- **My List** — the "MY LIST" toggle on the catalog page and the "+ MY LIST" button on each title's episode page save/remove titles per signed-in user (`localStorage`, key `aa_playlist_<username>`).
+- **Continue Watching** — the homepage shows a row of in-progress titles. For `.mp4` episodes, playback position is tracked to the exact second via the native `<video>` element and resumed automatically. For `iframe` episodes, elapsed time is approximated from the episode's `duration` (same value used for auto-advance), since cross-origin iframes can't be inspected directly. Progress is stored per user (`localStorage`, key `aa_progress_<username>`).
+- **Top banner** — an auto-sliding banner (2s interval, click-to-open, clickable dots) featuring the latest and most-episode-heavy titles from the catalog.
+
+Browsing the catalog still works without an account — signing in only unlocks My List and Continue Watching.
