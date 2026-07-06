@@ -145,5 +145,20 @@ module.exports = [
         src: "https://rumble.com/embed/v7a58uo/?pub=4pw4c8"
       }
     ]
-  }
+  },
+    {
+    id: 6,
+    title: "Your Name",
+    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
+    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
+    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    episodes: [
+      {
+        number: 1,
+        title: "Movie",
+        type: "iframe",
+        src: "https://desidubanime.strp2p.site/#nj81sf"
+      }
+    ]
+  },
 ];
