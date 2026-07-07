@@ -181,257 +181,257 @@ module.exports = [
   },
   {
     id: 8,
-    title: "Black Clover Sword Of The Wizard King 2023 1080p.x264.[HIN-ENG-JAP] ",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Black Clover: Sword of the Wizard King ",
+    cover: "https://image.tmdb.org/t/p/w500/9YEGawvjaRgnyW6QVcUhFJPFDco.jpg",
+    banner: "https://sm.ign.com/t/ign_in/screenshot/default/enus-blackclover-main-vertical-rgb-pre_rtsf.1280.jpg",
+    synopsis: "As a lionhearted boy who can’t wield magic strives for the title of Wizard King, four banished Wizard Kings of yore return to crush the Clover Kingdom..",
+    tags: ["Animation","Action","Fantasy","Anime Movie","Adventure"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7no8/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 9,
     title: "Haikyu!! The Dumpster Battle (2024) 1080p HD [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    cover: "https://image.tmdb.org/t/p/w500/ntRU0OA4etGGiMMmH1Yw0bnaMdW.jpg",
+    banner: "https://sm.ign.com/t/ign_in/news/c/crunchyrol/crunchyroll-acquires-haikyu-blue-lock-and-overlord-films-rev_e5m8.1280.jpg",
+    synopsis: "Shoyo Hinata joins Karasuno High’s volleyball club to be like his idol, a former Karasuno player known as the ‘Little Giant’. But Hinata soon learns that he must team up with his middle school nemesis, Tobio Kageyama. Their clashing styles form a surprising weapon, but can their newfound teamwork defeat their rival Nekoma High in the highly anticipated ‘Dumpster Battle’, the long awaited ultimate showdown between two opposing underdog teams?.",
+    tags: ["Animation","Comedy ","Anime Movie"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7myg/?pub=4pw4c8"
       }
     ]
   }, 
   {
     id: 10,
-    title: "Hindi - Demon Slayer Kimetsu no Yaiba Infinity Castle (2025) 1080p [HIN-ENG-JAP] ",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Demon Slayer Kimetsu no Yaiba Infinity Castle ",
+    cover: "https://image.tmdb.org/t/p/w500/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+    banner: "https://movieswetextedabout.com/wp-content/uploads/2025/09/Demon-Slayer-Infinity-Castle-Banner.jpg",
+    synopsis: "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins..",
+    tags: ["Animation","Action ","Fantasy","Anime Movie"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7myu/?pub=4pw4c8"
       }
     ]
   },    
   {
     id: 12,
-    title: "Jujutsu Kaisen 0 (2021) 1080p HD [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Jujutsu Kaisen",
+    cover: "https://image.tmdb.org/t/p/original/yzkgx79vj1KsZBzxFBIsQBwBkPE.jpg",
+    banner: "https://cdn.nerdist.com/wp-content/uploads/2022/03/12181901/JJK_Movie_16x9_Twitter-Post-V2.jpg",
+    synopsis: "Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won’t leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?.",
+    tags: ["Animation","Action ","Fantasy","Anime Movie"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7mz6/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 13,
-    title: "Lost in Starlight (2025) 720p HD [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Lost in Starlight",
+    cover: "https://image.tmdb.org/t/p/w500/dXlUIfwejWa9YvugU9V773dUASY.jpg",
+    banner: "https://www.acmodasi.in/amdb/images/movie/m/y/lost-in-starlight-2025-IPKIdM.jpg",
+    synopsis: "When an astronaut leaves Earth for Mars, the vast infinite space divides star-crossed lovers in this animated romance that crosses the cosmos..",
+    tags: ["Animation","Romance ","Science Fiction","Anime Movie","Drama"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7mzg/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 14,
-    title: "My Hero Academia You're Next-1080p-HEVC-{BD}-[HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "My Hero Academia You're Next",
+    cover: "https://image.tmdb.org/t/p/w500/tTrI6PwqzxkgO3dvQ7BEKXM7SYR.jpg",
+    banner: "https://dx35vtwkllhj9.cloudfront.net/toho-international/my-hero-academia-youre-next/images/regions/us/share.png",
+    synopsis: "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the ‘symbol of peace’, stands in front of Izuku and his friends….",
+    tags: ["Animation"," Action ","Adventure","Anime Movie"," Science Fiction"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7nok/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 15,
-    title: "My.Hero.Academia.Two.Heroes.2018.1080p10bit.[HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
+    title: "My.Hero.Academia.Two.Heroes",
+    cover: "https://image.tmdb.org/t/p/w500/hC4nTxdhXqFWzgqynGvvXVMiMNp.jpg",
+    banner: "https://i.ytimg.com/vi/bF6r_JPYUkA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBU3YqhIRcc4MeWwKnRXEGc1Jffgg",
     synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    tags: ["Animation"," Action ","Adventure","Anime Movie","Fantasy"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7noi/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 16,
-    title: "My_Hero_Academia_Movie03-_World_Heroes_Mission-1080p-[HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "My Hero Academia: World Heroes Mission",
+    cover: "https://image.tmdb.org/t/p/w500/AsTlA7dj2ySGY1pzGSD0MoHFhEF.jpg",
+    banner: "https://images7.alphacoders.com/120/thumb-1920-1209322.png",
+    synopsis: " A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia..",
+    tags: ["Animation","Science Fiction "," Adventure","Anime Movie","Action" ],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7np0/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 17,
-    title: "My_Hero_Academia-Movie-02-Heroes_Rising-1080p-[HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "My Hero Academia: Heroes Rising",
+    cover: "https://image.tmdb.org/t/p/w500/kpWsIkfXrnQ1pmR79qAHHq7DPxc.jpg",
+    banner: "https://thebannercsi.com/wp-content/uploads/2020/03/mha_hero.jpg",
+    synopsis: " A mysterious group called Humarize strongly believes in the Quirk Singularity Doomsday theory which states that when quirks get mixed further in with future generations, that power will bring forth the end of humanity. In order to save everyone, the Pro-Heroes around the world ask UA Academy heroes-in-training to assist them and form a world-class selected hero team. It’s up to the heroes to save the world and the future of heroes in what is the most dangerous crisis to take place yet in My Hero Academia..",
+    tags: ["Animation"," Action "," Adventure","Anime Movie"," Fantasy"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7mzw/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 18,
-    title: "One Piece Clockwork Island Adventure (2001) 1080p HD [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "One Piece: The Movie",
+    cover: "https://image.tmdb.org/t/p/w500/aRqQNSuXpcE3dkJC43aEg9f2HXd.jpg",
+    banner: "https://image.tmdb.org/t/p/w500/aRqQNSuXpcE3dkJC43aEg9f2HXd.jpg",
+    synopsis: "There once was a pirate known as the Great Gold Pirate Woonan, who obtained almost one-third of the world’s gold. Over the course of a few years, the pirate’s existence faded, and a legend grew that he disappeared with his gold to a remote island, an island pirates continue to search for. Aboard the Going Merry, Luffy and his crew, starved and reckless, are robbed of their treasure. In an attempt to get it back, they wreck the getaway ship, guided by a young boy named Tobio, who’s a captured part of El Drago’s pirate crew. El Drago’s love for gold has driven him to look for Woonan’s island, and thanks to Woonan’s treasure map, he finds it. During this time, Luffy’s crew have been split up, and despite their own circumstances, they must find a way to stop El Drago from obtaining Woonan’s gold..",
+    tags: ["Animation","Fantasy ","Comedy","Anime Movie"," Adventure", " Action" ],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7n0e/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 19,
-    title: "One Piece Movie 01 - One Piece the Movie in Hindi [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "One Piece Clockwork Island Adventure",
+    cover: "https://image.tmdb.org/t/p/w500/phrVSY5cpUkybc0gU41crWi2XIP.jpg",
+    banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0pnP75ug8lHxZoFMNXHwGQ4x2HLYf66qcGdRW6QRHGg&s=10",
+    synopsis: "Relaxing on a cozy beach, the Straw Hat Pirates are taking a rest from their quest. Right until Luffy noticed the Going Merry has been hijacked and sailed off from the beach. This leads them to search the ship and find the thief who took it from them. They ran into a duo named the Theif Brothers, who informed them that their ship was stolen by a group of pirates called the Trump Kyoudai. When they encountered the Trump Pirates, Nami ended up getting kidnapped as well as Luffy’s hat. They tracked down the pirates to their base on Clockwork Island. Now Luffy, Zoro, Sanji, Usopp, and the Theif Brothers must reclaim the Going Merry, Save Nami, and get back Shank’s straw hat..",
+    tags: ["Animation"," Adventure ","Action","Anime Movie"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7mzy/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 20,
-    title: "Re ZERO Starting Life in Another World Memory Snow (2018) [HIN-ENG-JAP] ",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Re ZERO Starting Life in Another World Memory Snow ",
+    cover: "https://image.tmdb.org/t/p/w500/y7XwmyE5ue9hjk65fEWpO2hGU2B.jpg",
+    banner: "https://m.media-amazon.com/images/M/MV5BYzQ1YjVlMDgtYmQ4Mi00ZWM3LTgxYTItN2VkZjhmNjkyZTZkXkEyXkFqcGc@._V1_.jpg",
+    synopsis: "Subaru finally gets to take a breather, but he does not waste any time as he prepares for a date with his beloved Emilia. He scouts the nearby village for the right dating spot, and with the help of the village children, he finds a wonderful location. With that, he is well prepared for his date! Unfortunately for Subaru, cold weather suddenly sweeps across Roswaal’s mansion on his important day, leaving him with no choice but to postpone the date. Overnight, it becomes even colder and unbearable. Subaru must get to the bottom of this because, at this rate, his date will be the least of his worries..",
+    tags: ["Animation"," Adventure ","Fantasy","Anime Movie"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7n0s/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 21,
-    title: "Re ZERO Starting Life in Another World The Frozen Bond (2019)[HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Re ZERO Starting Life in Another World The Frozen Bond ",
+    cover: "https://image.tmdb.org/t/p/w500/ca2ZsUa4Qeik2IwlXFzV51hdxh0.jpg",
+    banner: "https://i.ytimg.com/vi/nUVSklUurTI/maxresdefault.jpg",
+    synopsis: "A prequel story set seven years before the beginning of the Re:ZERO series. Emilia lives in a secluded forest covered in snow with the spirit Puck. The forest holds a secret: the elves who once lived there have been frozen into ice. Emilia is feared by the people living on the outskirts of the forest, but makes a humble living selling magic stones and warding off Magic Beasts. One day, however, her peaceful life is disrupted when the Great Spirit of Fire Melakuera decides to lay his judgment upon her..",
+    tags: ["Animation"," Fantasy","Anime Movie","Drama"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7n1e/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 22,
-    title: "Scarlet (2025) ",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Scarlet ",
+    cover: "https://image.tmdb.org/t/p/original/6YWZ8HwZLhLb3D1qmtfBab2a2Bw.jpg",
+    banner: "https://occ-0-8407-448.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfygoBMGV9QtpFOEXIy7-G-q5UBX_aHdoh9yOe9pOlgSBP_wVli_kNErxmwfhiKpQs4UOITcpj7cu8_4rb153veYVeASZba82KN7.jpg?r=01d",
+    synopsis: "After failing to avenge her father’s murder, Princess Scarlet, wakes up in the “Land of the Dead.” In this world filled with madness, if she does not achieve her revenge against her nemesis and reach the “No End Place,” she will become “Void” and cease to exist. Can Scarlet find a way to live at the end of her endless journey?.",
+    tags: ["Animation"," Action ","Science Fiction","Anime Movie","Drama"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7n1i/?pub=4pw4c8"
       }
     ]
   },  
   {
     id: 23,
-    title: "Spy x Family Code White 2023 1080p [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Spy x Family Code White ",
+    cover: "https://image.tmdb.org/t/p/w500/xlIQf4y9eB14iYzNN142tROIWON.jpg",
+    banner: "https://www.impericon.com/cdn/shop/articles/Spy_family_Code_White_1200x1200_crop_center.webp?v=1718270858",
+    synopsis: "While under the guise of taking his family on a weekend winter getaway, Loid’s attempt to make progress on his current mission Operation Strix proves difficult when Anya mistakenly gets involved and triggers events that threaten world peace..",
+    tags: ["Animation"," Action "," Adventure ","Anime Movie"," Comedy"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7npa/?pub=4pw4c8"
       }
     ]
   },
     {
     id: 24,
-    title: "Suzume (2022) 1080p HD [HIN-ENG-JAP]",
-    cover: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg",
-    banner: "https://i.pinimg.com/1200x/9f/a5/74/9fa574f9013017a4568880cfa0106fa6.jpg",
-    synopsis: "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other.",
-    tags: ["Animation","Romance ","Fantasy","Anime Movie","Drama"],
+    title: "Suzume",
+    cover: "https://image.tmdb.org/t/p/w500/yStW1TXF5s7Tbtu9KjIZEaWl6HL.jpg",
+    banner: "https://sm.ign.com/t/ign_in/photo/default/suzume-blogroll-1680555973534_yf74.1280.jpg",
+    synopsis: "Suzume, 17, lost her mother as a little girl. On her way to school, she meets a mysterious young man. But her curiosity unleashes a calamity that endangers the entire population of Japan, and so Suzume embarks on a journey to set things right..",
+    tags: ["Animation"," Adventure "," Fantasy","Anime Movie","Drama"],
     episodes: [
       {
         number: 1,
         title: "Movie",
         type: "iframe",
-        src: "https://rumble.com/embed/v7a5feq/?pub=4pw4c8"
+        src: "https://rumble.com/embed/v7a7n1u/?pub=4pw4c8"
       }
     ]
   },
@@ -441,7 +441,7 @@ module.exports = [
     cover: "https://image.tmdb.org/t/p/w500/aaYPPivWuebwIKQvFYuWkp9m0q5.jpg",
     banner: "https://butwhytho.net/wp-content/uploads/2024/06/A-Condition-Called-Love-Season-1-But-Why-Tho-4.jpg",
     synopsis: "High school freshman Hotaru Hinase has a vibrant life full of family and friendship, but not much luck in romance. That all changes when she makes a warm gesture to her handsome and heartbroken classmate, Hananoi, leading to him asking her out and her becoming flustered. Witness a girl who grapples with the enigma of love and a boy who is heavy handed with it.",
-    tags: ["Animation","Comedy ","1 Seasons","Drama"],
+    tags: ["Animation","Comedy ","Season 1","Drama"],
     episodes: [
       {
         number: 1,
