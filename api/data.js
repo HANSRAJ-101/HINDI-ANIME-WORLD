@@ -47,7 +47,7 @@ module.exports = [
     cover: "https://image.tmdb.org/t/p/w500/eml0QA3zUMizBvrlfQKhWI0swVh.jpg",
     banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ph3mdIF2vDiuTw_u60mzyEiS9yHHk5putAZ2-7E_AQ&s=10",
     synopsis: "Comedy  Reality. Replace with your own series description.",
-    tags: [" 4K | 1080p | 720p | 480p  ", "Hindi"],
+    tags: ["Hindi"],
     episodes: [
       {
         number: 1,
