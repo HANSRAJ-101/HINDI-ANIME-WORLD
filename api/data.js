@@ -22,6 +22,24 @@
 //                      e.g. a Rumble embed: https://rumble.com/embed/XXXXXXX/
 //   type: "mp4"     -> src is a direct link to a raw video file host
 //                      e.g. https://yoursite.com/video.mp4 / .m3u8 streams
+//
+// ---------------------- SEASONS (optional) -------------------
+// Add a `season` number to an episode to group it under that season.
+// Episodes with no `season` field default to Season 1, so every
+// existing single-season entry below keeps working with zero changes.
+//
+// The moment a title has 2+ distinct season numbers among its episodes,
+// the site automatically shows "SEASON 1 / SEASON 2 / …" tabs in the
+// episode rail, filters the list down to whichever season is selected,
+// and auto-plays that season's first episode the moment you switch tabs.
+//
+// Example — a two-season show:
+//   episodes: [
+//     { number: 1, season: 1, title: "S1 Episode 1", type: "iframe", src: "..." },
+//     { number: 2, season: 1, title: "S1 Episode 2", type: "iframe", src: "..." },
+//     { number: 1, season: 2, title: "S2 Episode 1", type: "iframe", src: "..." },
+//     { number: 2, season: 2, title: "S2 Episode 2", type: "iframe", src: "..." }
+//   ]
 // ============================================================
 
 module.exports = [
@@ -842,6 +860,185 @@ module.exports = [
         title: "Episode 12 (1080p)",
         type: "iframe",
         src: "https://bysedikamoum.com/e/hubqhlgw0ft7"
+      }
+    ]
+  }
+  ,
+  {
+    id: 30,
+    title: "The Angel Next Door Spoils Me Rotten",
+    cover: "https://image.tmdb.org/t/p/original/pjNFTabj2mXUGquE8Oj3buPeKvQ.jpg",
+    banner: "https://image.tmdb.org/t/p/original/pjNFTabj2mXUGquE8Oj3buPeKvQ.jpg",
+    synopsis: "Amane lives alone in an apartment, and the most beautiful girl in school, Mahiru, lives just next door. They’ve almost never spoken—until the day he sees her in distress on a rainy day and lends her his umbrella. To return the favour, she offers him help around the house, and a relationship slowly begins to blossom as the distance between them closes…",
+    tags: ["Animation", "Comedy", "Season 2", "Season 1"],
+    episodes: [
+      {
+        number: 1,
+        season: 1,
+        title: "Episode 01",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/dpx7guw6ijd2/the-angel-next-door-spoils-me-rotten-s01e01-hindi"
+      },
+      {
+        number: 2,
+        season: 1,
+        title: "Episode 02",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/c0hf3qwn5l42/the-angel-next-door-spoils-me-rotten-s01e02-hindi"
+      },
+      {
+        number: 3,
+        season: 1,
+        title: "Episode 03",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/3d02eu2fvak2/the-angel-next-door-spoils-me-rotten-s01e03-hindi"
+      },
+      {
+        number: 4,
+        season: 1,
+        title: "Episode 04",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/30ibw9s3vn0a/the-angel-next-door-spoils-me-rotten-s01e04-hindi"
+      },
+      {
+        number: 5,
+        season: 1,
+        title: "Episode 05",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/t3gs2odbm4cq/the-angel-next-door-spoils-me-rotten-s01e05-hindi"
+      },
+      {
+        number: 6,
+        season: 1,
+        title: "Episode 06",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/z12ircpz5ntm/the-angel-next-door-spoils-me-rotten-s01e06-hindi"
+      },
+      {
+        number: 7,
+        season: 1,
+        title: "Episode 07",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/iecggnp4rw5x/the-angel-next-door-spoils-me-rotten-s01e07-hindi"
+      },
+      {
+        number: 8,
+        season: 1,
+        title: "Episode 08",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/5b3jbgxvw9ee/the-angel-next-door-spoils-me-rotten-s01e08-hindi"
+      },
+      {
+        number: 9,
+        season: 1,
+        title: "Episode 09",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/rp7bzfa986g5/the-angel-next-door-spoils-me-rotten-s01e09-hindi"
+      },
+      {
+        number: 10,
+        season: 1,
+        title: "Episode 10",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/qmwk9re0x2rr/the-angel-next-door-spoils-me-rotten-s01e10-hindi"
+      },
+      {
+        number: 11,
+        season: 1,
+        title: "Episode 11",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/9zufdzmltoko/the-angel-next-door-spoils-me-rotten-s01e11-hindi"
+      },
+      {
+        number: 12,
+        season: 1,
+        title: "Episode 12",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/ylre9g296nqf/the-angel-next-door-spoils-me-rotten-s01e12-hindi"
+      },
+      {
+        number: 1,
+        season: 2,
+        title: "Episode 01",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/jz9dtmewvgpf/the-angel-next-door-spoils-me-rotten-s02e01-hindi"
+      },
+      {
+        number: 2,
+        season: 2,
+        title: "Episode 02",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/uoc2dbchbgeq/the-angel-next-door-spoils-me-rotten-s02e02-hindi"
+      },
+      {
+        number: 3,
+        season: 2,
+        title: "Episode 03",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/mu511m6kv42g/the-angel-next-door-spoils-me-rotten-s02e03-hindi"
+      },
+      {
+        number: 4,
+        season: 2,
+        title: "Episode 04",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/1riiddo0gqby/the-angel-next-door-spoils-me-rotten-s02e04-hindi"
+      },
+      {
+        number: 5,
+        season: 2,
+        title: "Episode 05",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/imetc3dtszbk/the-angel-next-door-spoils-me-rotten-s02e05-hindi"
+      },
+      {
+        number: 6,
+        season: 2,
+        title: "Episode 06",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/im7aquj3i7p5/the-angel-next-door-spoils-me-rotten-s02e06-hindi"
+      },
+      {
+        number: 7,
+        season: 2,
+        title: "Episode 07",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/jkanu8yx4qr5/the-angel-next-door-spoils-me-rotten-s02e07-hindi"
+      },
+      {
+        number: 8,
+        season: 2,
+        title: "Episode 08",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/59p2rm9u46dg/the-angel-next-door-spoils-me-rotten-s02e08-hindi"
+      },
+      {
+        number: 9,
+        season: 2,
+        title: "Episode 09",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/0e4wywuhet74/the-angel-next-door-spoils-me-rotten-s02e09-hindi"
+      },
+      {
+        number: 10,
+        season: 2,
+        title: "Episode 10",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/b2k8qk081qfv/the-angel-next-door-spoils-me-rotten-s02e10-hindi"
+      },
+      {
+        number: 11,
+        season: 2,
+        title: "Episode 11",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/p976fd7h2wtc/the-angel-next-door-spoils-me-rotten-s02e11-hindi"
+      },
+      {
+        number: 12,
+        season: 2,
+        title: "Episode 12",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/9po8w4s68xyl/the-angel-next-door-spoils-me-rotten-s02e12-hindi"
       }
     ]
   }
