@@ -680,5 +680,169 @@ module.exports = [
         src: "https://rumble.com/embed/v7a73ce/?pub=4pw4c8"
       }
     ]
+  },
+  {
+    id: 28,
+    title: "Jack of All Trades Party of None",
+    cover: "https://image.tmdb.org/t/p/w500/qRvICaz6LJXz96DaYcpTjQf6QN8.jpg",
+    banner: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8al2XZ6xu1hfZfY_-45cDkd0M_tPvImLMC1sX9UnV1g&s",
+    synopsis: "Betrayed by his childhood friend and cast out of the Hero Party, Orhun Dura—once their loyal Enchanter—is branded by his former comrades as “a jack-of-all-trades but a master of none.” Alone, he sets out to forge a new path as a solo adventurer. His journey sparks explosive battles, deadly rivals, and unexpected allies—and he’ll rise to shatter every expectation. The ultimate solo comeback begins!",
+    tags: ["Animation", "Action & Adventure", "Sci-Fi & Fantasy", "Season 1"],
+    episodes: [
+      {
+        number: 1,
+        title: "Episode 1 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/8f04g3o6qx6u"
+      },
+      {
+        number: 2,
+        title: "Episode 2 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/ivxry5iv89ne"
+      },
+      {
+        number: 3,
+        title: "Episode 3 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/tbupu0p51dk2"
+      },
+      {
+        number: 4,
+        title: "Episode 4 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/9b33l280ptl0"
+      },
+      {
+        number: 5,
+        title: "Episode 5 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/kb0gdzpswtx8"
+      },
+      {
+        number: 6,
+        title: "Episode 6 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/uyrpjfuks3pc"
+      },
+      {
+        number: 7,
+        title: "Episode 7 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/r7p7h8bgdw3q"
+      },
+      {
+        number: 8,
+        title: "Episode 8 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/0z37mydrk8ts"
+      },
+      {
+        number: 9,
+        title: "Episode 9 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/cxfenlnw2l36"
+      },
+      {
+        number: 10,
+        title: "Episode 10 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/o0d99354d04a"
+      },
+      {
+        number: 11,
+        title: "Episode 11 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/6lc9dtjdyjh3"
+      },
+      {
+        number: 12,
+        title: "Episode 12 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/i08nxpowsn00"
+      }
+    ]
+  },
+  {
+    id: 29,
+    title: "365 Days to the Wedding",
+    cover: "https://image.tmdb.org/t/p/w500/lMVkOrMaWEkHZLdPksKGcdi6hJg.jpg",
+    banner: "https://i.ytimg.com/vi/LzNpU_ckjTs/maxresdefault.jpg",
+    synopsis: "Takuya and Rika work at the same travel agency in Tokyo and are both happily introverted and single. But their company is opening a new branch in Alaska next year, and employees without a spouse will be recruited to work there. Desperate to avoid the move, and though they’ve hardly spoken before, they decide to fake an engagement. Can these quiet coworkers become a convincing couple?",
+    tags: ["Animation", "Comedy", "Season 1"],
+    episodes: [
+      {
+        number: 1,
+        title: "Episode 1 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/tn8vgw3204qi"
+      },
+      {
+        number: 2,
+        title: "Episode 2 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/vvhd16i6nxrq"
+      },
+      {
+        number: 3,
+        title: "Episode 3 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/1ih7s285jngv"
+      },
+      {
+        number: 4,
+        title: "Episode 4 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/3vp79rjjy9kc"
+      },
+      {
+        number: 5,
+        title: "Episode 5 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/1793ujdovbf7"
+      },
+      {
+        number: 6,
+        title: "Episode 6 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/kl2kswih25is"
+      },
+      {
+        number: 7,
+        title: "Episode 7 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/bpdf2cfhmydq"
+      },
+      {
+        number: 8,
+        title: "Episode 8 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/rg4tzcak9bry"
+      },
+      {
+        number: 9,
+        title: "Episode 9 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/kffc5bbu6stv"
+      },
+      {
+        number: 10,
+        title: "Episode 10 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/0ra5m43sz4ok"
+      },
+      {
+        number: 11,
+        title: "Episode 11 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/iclkp740adbt"
+      },
+      {
+        number: 12,
+        title: "Episode 12 (1080p)",
+        type: "iframe",
+        src: "https://bysedikamoum.com/e/hubqhlgw0ft7"
+      }
+    ]
   }
 ];
