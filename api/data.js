@@ -2,7 +2,7 @@
 // ANIME DATA STORE
 // ------------------------------------------------------------
 // This is the "database" for the simple backend. Edit this file
-// to add your real anime + episodes. No build step needed —
+// to add your real anime + episodes. No build step needed — f d
 // just commit and push, Vercel redeploys automatically.
 //
 // ------------------ ANIME ENTRY METADATA --------------------
@@ -13,7 +13,7 @@
 //                      LATEST 5 uploaded anime items (based on their position 
 //                      at the very end of this array). If you omit the `banner` 
 //                      property, the system will fall back to using your `cover` art.
-// cover             -> REQUIRED. A direct link to vertical poster art (approx 5:7 vx 
+// cover             -> REQUIRED. A direct link to vertical poster art (approx 5:7 
 //                      aspect ratio) used for the search lists and catalog grids.
 //
 // -------------------- EPISODE MANAGEMENT --------------------
@@ -1039,184 +1039,6 @@ module.exports = [
         title: "Episode 12",
         type: "iframe",
         src: "https://bysedikamoum.com/e/9po8w4s68xyl/the-angel-next-door-spoils-me-rotten-s02e12-hindi"
-      }
-    ]
-  },
-  {
-    id: 31,
-    title: "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense",
-    cover: "https://image.tmdb.org/t/p/original/3w7AGT6XAkrhyvTRqvIAdAwQwD1.jpg",
-    banner: "https://image.tmdb.org/t/p/original/3w7AGT6XAkrhyvTRqvIAdAwQwD1.jpg",
-    synopsis: "Kaede Honjou is invited by her friend Risa Shiramine to play a virtual reality MMO game with her. While Kaede doesn’t dislike games, what she really, truly dislikes is being in pain. She creates a character named Maple, and decides to put all her points in VIT to minimize pain. As a result, she moves slowly, can’t use magic, and even a rabbit can get the best of her. But as it turns out, she acquires a skill known as “Absolute Defense” as a result of her pumping points into VIT, as well as a “Counter Skill” that works against special moves. Now, with her ability to nullify all damage, she goes on adventures.",
-    tags: ["Animation", "Comedy", "Action & Adventure", "Sci-Fi & Fantasy", "Season 1", "Season 2"],
-    episodes: [
-      {
-        number: 1,
-        season: 1,
-        title: "Episode 01",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/owox6pm5p62q"
-      },
-      {
-        number: 2,
-        season: 1,
-        title: "Episode 02",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/3cspk5tyrxgh"
-      },
-      {
-        number: 3,
-        season: 1,
-        title: "Episode 03",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/b031tvtmjfke"
-      },
-      {
-        number: 4,
-        season: 1,
-        title: "Episode 04",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/gshgxz58zier"
-      },
-      {
-        number: 5,
-        season: 1,
-        title: "Episode 05",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/idjitrhrstyn"
-      },
-      {
-        number: 6,
-        season: 1,
-        title: "Episode 06",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/flhrivv1q2tf"
-      },
-      {
-        number: 7,
-        season: 1,
-        title: "Episode 07",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/2mcujhflvkix"
-      },
-      {
-        number: 8,
-        season: 1,
-        title: "Episode 08",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/ho5vwg799ahp"
-      },
-      {
-        number: 9,
-        season: 1,
-        title: "Episode 09",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/sb7hx52hxdg8"
-      },
-      {
-        number: 10,
-        season: 1,
-        title: "Episode 10",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/03jv9aywlhes"
-      },
-      {
-        number: 11,
-        season: 1,
-        title: "Episode 11",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/8icjk3eno5l9"
-      },
-      {
-        number: 12,
-        season: 1,
-        title: "Episode 12",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/xukgyjt9nor2"
-      },
-      {
-        number: 1,
-        season: 2,
-        title: "Episode 01",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/m3sovewgi4aw"
-      },
-      {
-        number: 2,
-        season: 2,
-        title: "Episode 02",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/pv05jtymbirw"
-      },
-      {
-        number: 3,
-        season: 2,
-        title: "Episode 03",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/yhjnvmbn9i40"
-      },
-      {
-        number: 4,
-        season: 2,
-        title: "Episode 04",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/byy9fb8pcn5w"
-      },
-      {
-        number: 5,
-        season: 2,
-        title: "Episode 05",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/xdtxf3zs40oi"
-      },
-      {
-        number: 6,
-        season: 2,
-        title: "Episode 06",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/pw595z1j7xm4"
-      },
-      {
-        number: 7,
-        season: 2,
-        title: "Episode 07",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/pxp1xwp9j27a"
-      },
-      {
-        number: 8,
-        season: 2,
-        title: "Episode 08",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/4jb13rqk9aoc"
-      },
-      {
-        number: 9,
-        season: 2,
-        title: "Episode 09",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/vpmioelwa9m8"
-      },
-      {
-        number: 10,
-        season: 2,
-        title: "Episode 10",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/u7qh0ob598fj"
-      },
-      {
-        number: 11,
-        season: 2,
-        title: "Episode 11",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/pzl12itczu0d"
-      },
-      {
-        number: 12,
-        season: 2,
-        title: "Episode 12",
-        type: "iframe",
-        src: "https://bysedikamoum.com/e/734e5fp8sgn3"
       }
     ]
   }

@@ -962,27 +962,72 @@ body.auth-body {
   border-bottom: 1px solid var(--border-soft);
 }
 
+.banner-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  touch-action: pan-y;
+  cursor: grab;
+}
+.banner-track:active { cursor: grabbing; }
+
 .banner-slide {
-  position: absolute;
-  inset: 0;
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
+  overflow: hidden;
+}
+
+/* Ken Burns: a separate, overflow-clipped layer slowly zooms/drifts
+   behind the copy so the slide never feels static, independent of
+   the track's horizontal slide transform. */
+.banner-slide-bg {
+  position: absolute;
+  inset: -6%;
   background-size: cover;
   background-position: center;
-  opacity: 0;
-  transition: opacity 0.6s ease;
-  pointer-events: none;
+  animation: bannerKenBurns 9s ease-in-out infinite alternate;
+  will-change: transform;
 }
-.banner-slide.active { opacity: 1; pointer-events: auto; }
+@keyframes bannerKenBurns {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.12) translate(-1.5%, -1%); }
+}
 
 .banner-slide::before {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 1;
   background:
     linear-gradient(to top, var(--bg) 2%, rgba(10,10,16,0.55) 35%, rgba(10,10,16,0.15) 65%),
     linear-gradient(to right, rgba(10,10,16,0.94) 0%, rgba(10,10,16,0.6) 42%, rgba(76,20,60,0.18) 75%);
 }
+
+.banner-dots {
+  position: absolute;
+  z-index: 2;
+  left: 5vw;
+  bottom: 22px;
+  display: flex;
+  gap: 8px;
+}
+.banner-dot {
+  width: 22px;
+  height: 4px;
+  border-radius: 999px;
+  border: none;
+  background: rgba(241,240,245,0.28);
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.25s ease, width 0.25s ease;
+}
+.banner-dot:hover { background: rgba(241,240,245,0.55); }
+.banner-dot.active { background: var(--grad-brand); width: 34px; }
 
 .banner-copy {
   position: relative;
@@ -1634,7 +1679,12 @@ body.auth-body {
     width: 100%;
   }
 
-  /* --- FIXED MOBILE CAROUSEL SLIDE ENGINE --- */
+  /* --- MOBILE CAROUSEL SLIDE ENGINE ---
+     The slider is a flex track (.banner-track) that moves via
+     transform: translateX(); slides are always flex:0 0 100% and
+     always visible/opaque — visibility is purely a matter of which
+     one is scrolled into view. Do NOT reintroduce opacity/.active
+     toggling here or every slide gets hidden with nothing to show it. */
   .banner {
     height: 460px; /* Restores concrete constraints so text layouts behave beautifully */
     min-height: 460px;
@@ -1643,22 +1693,8 @@ body.auth-body {
   }
 
   .banner-slide {
-    position: absolute; /* Reverts layout mechanics back to matching standard JavaScript loops */
-    inset: 0;
-    display: flex;
+    /* inherits flex:0 0 100%, position:relative, overflow:hidden from base rule */
     align-items: center;
-    pointer-events: none;
-    opacity: 0 !important; /* Hides the standard layout strings to prevent stacked vertical leaks */
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* Exposes ONLY the single script-activated card array item at any single time */
-  .banner-slide.active {
-    opacity: 1 !important;
-    pointer-events: auto;
-    position: absolute;
-    z-index: 1;
   }
 
   /* Dark high-contrast vignette overlay to maximize string accessibility layers on mobile panels */
@@ -1667,10 +1703,10 @@ body.auth-body {
     content: "";
     position: absolute;
     inset: 0;
+    z-index: 1;
     background: 
       linear-gradient(to top, var(--bg) 12%, rgba(10,10,16,0.6) 45%, rgba(10,10,16,0.3) 100%),
       linear-gradient(to right, rgba(10,10,16,0.92) 0%, rgba(10,10,16,0.4) 100%);
-    z-index: 0;
   }
 
   .banner-copy {
